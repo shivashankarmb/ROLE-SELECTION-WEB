@@ -304,3 +304,21 @@ button:hover {
     0 20px 40px rgba(0, 0, 0, 0.5),
     0 0 0 1px rgba(56, 189, 248, 0.2);
 }
+/* Role-based theme color support */
+.card:hover {
+  border-color: var(--accent);
+}
+
+.skill {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--accent);
+}
+
+button {
+  background: var(--accent);
+}
+.card:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.25);
+}
