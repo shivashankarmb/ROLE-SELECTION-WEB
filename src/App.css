@@ -265,3 +265,42 @@ button:hover {
     transition: none !important;
   }
 }
+/* Clear hover hint */
+.card:hover h3 {
+  color: #7dd3fc;
+}
+
+.card:hover .card-text {
+  color: #cbd5f5;
+}
+/* Click feedback */
+.card:active {
+  transform: scale(0.96);
+}
+/* Keyboard focus */
+.card:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 4px;
+}
+/* Helper text polish */
+.footer-text {
+  letter-spacing: 0.3px;
+}
+/* Better spacing on role page */
+.role-box h1 {
+  margin-bottom: 8px;
+}
+
+.role-box .subtitle {
+  margin-bottom: 20px;
+}
+
+.role-box button {
+  margin-top: 10px;
+}
+/* Gentle glow on hover */
+.card:hover {
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(56, 189, 248, 0.2);
+}
