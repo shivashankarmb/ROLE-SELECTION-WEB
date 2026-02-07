@@ -1,0 +1,42 @@
+export const roles = [
+  {
+    name: "Frontend Developer",
+    slug: "frontend-developer",
+    icon: "💻",
+    color: "#38bdf8",
+    description: "Builds responsive and interactive web interfaces",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
+    name: "Backend Developer",
+    slug: "backend-developer",
+    icon: "🗄️",
+    color: "#22c55e",
+    description: "Handles server-side logic and databases",
+    skills: ["Node.js", "Java", "Python", "Databases"],
+  },
+  {
+    name: "UI / UX Designer",
+    slug: "ui-ux-designer",
+    icon: "🎨",
+    color: "#a855f7",
+    description: "Designs user-friendly and engaging interfaces",
+    skills: ["Figma", "Wireframing", "Prototyping", "User Research"],
+  },
+  {
+    name: "Artist",
+    slug: "artist",
+    icon: "🎭",
+    color: "#ec4899",
+    description: "Showcases creative and performance-based talent",
+    skills: ["Acting", "Voice Modulation", "Writing", "Performance"],
+  },
+  {
+    name: "Video Editor",
+    slug: "video-editor",
+    icon: "🎬",
+    color: "#f59e0b",
+    description: "Creates and edits professional video content",
+    skills: ["Premiere Pro", "After Effects", "Motion Graphics", "Video Cutting"],
+  },
+];
